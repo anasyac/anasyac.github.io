@@ -74,9 +74,9 @@ html {
 
 #bio {
     font-family: 'Plus Jakarta Sans', sans-serif;
-    font-size: 3vw;
+    font-size: 2vw;
     text-align: justify;
-    line-height: 5vw;
+    line-height: 3vw;
     font-weight: 400;
 }
 
@@ -155,9 +155,9 @@ section a::after {
 
 .desc {
     font-weight: 400;
-    font-size: 2vw;
+    font-size: 1.4vw;
     color: #FFFFFF;
-    line-height: 3vw;
+    line-height: 2vw;
 }
 
 .title {
