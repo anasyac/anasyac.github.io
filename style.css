@@ -76,7 +76,7 @@ html {
     font-family: 'Plus Jakarta Sans', sans-serif;
     font-size: 2vw;
     text-align: justify;
-    line-height: 3vw;
+    line-height: 3.5vw;
     font-weight: 400;
 }
 
@@ -155,9 +155,9 @@ section a::after {
 
 .desc {
     font-weight: 400;
-    font-size: 1.4vw;
+    font-size: 1.2em;
     color: #FFFFFF;
-    line-height: 2vw;
+    line-height: 1.5em;
 }
 
 .title {
@@ -397,7 +397,7 @@ img[data-enlargable]:hover {
     }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 600px) {
     .badge, .footer ul {
         display: none;
     }
@@ -430,5 +430,10 @@ img[data-enlargable]:hover {
 
     .about-title {
         padding-top: 10px;
+    }
+
+    #bio {
+        font-size: 2vh;
+        line-height: 3vh;
     }
 }
